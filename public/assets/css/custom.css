@@ -1,0 +1,134 @@
+body{
+	padding:0;
+	margin: 0;
+	font-size: 15px;
+	line-height: 26px;
+	font-family: 'Lato', sans-serif;
+}
+*{box-sizing: border-box;}
+p{margin: 0;padding: 0;}
+i {
+    font-family: FontAwesome;
+    font-style: normal;
+}
+.dropdown-menu{
+	min-width: 100%;
+	border: 0;
+	box-shadow: 0px 1px 2px #b9b8b85c;
+	padding: 0px;
+}
+
+.dropdown-item{
+	padding: 0.55rem 1.5rem;
+}
+header{padding: 15px 0; }
+ul.navbar-nav li a {
+    font-weight: 600;
+    color: #020202;
+    transition: 0.3s;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav li a:hover {
+    color: #334295;
+    transition: 0.3s;
+}
+ul.navbar-nav li {
+    margin: 0 10px;
+}
+.section_margin{
+    margin-top: 60px;
+}
+input:focus{
+    box-shadow:none !important;
+}
+/*********************************main css************************/
+button.custom-btn {
+    background: #3e90fe;
+    border: 0;
+    color: #fff;
+    padding: 5px 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.table td, .table th{
+    border: 1px solid #dee2e6;
+    font-weight: normal;
+}
+table tr a {
+    color: initial;
+}
+table tr a i {
+    margin: 0 6px;
+    font-size: 17px !important;
+}
+footer {
+    background: #212529;
+    padding: 12px 0;
+    color: #fff;
+}
+section.banner_sec {
+    background: #ffefd8;
+    padding: 50px 0 30px;
+}
+.form-custom {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0px 0px 27px #cccccc47;
+    border-radius: 10px;
+}
+.form-custom form .form-group {
+    display: flex;
+    flex-flow: column;
+}
+.form-custom form .form-group input, .form-custom form .form-group textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-custom form .form-group.btn-group {
+    flex-flow: row;
+}
+.form-custom form .form-group.btn-group button:last-child {
+    margin-left: 15px;
+}
+.form-custom form .form-group.btn-group button {
+    max-width: 150px;
+    width: 100%;
+}
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: #0e2050; }
+    99%{    color:#0e2050;  }
+    100%{   color: #0e2050;    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
